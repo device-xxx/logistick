@@ -1,0 +1,99 @@
+.advantages_container {
+    @media (max-width:1064px) {
+        padding: 0 16px;
+    }
+    .adventages_title {
+        h1 {
+            @media (max-width:752px) {
+                font-size: 24px;
+            }
+        }
+    }
+    .advantages_box {
+        width: 100%;
+      
+        margin-top: 100px;
+        gap: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 30px;
+   @media (max-width:1583px) {
+    justify-content: center;
+}
+@media (max-width:507px) {
+margin-top: 40px;
+gap: 10px;
+}
+        &>div {
+           flex: 1 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            flex-shrink: 0;
+         
+            @media (max-width:852px) {
+                flex: none;
+            }
+            @media (max-width:672px) {
+                width: 150px;
+            }
+            @media (max-width:518px) {
+                width: 130px;
+                height: 130px;
+            }
+            @media (max-width:507px) {
+                width: 100px;
+                height: 100px;
+                gap: 10px;
+            }
+            h1 {
+                width: 100%;
+                text-align: center;
+                @media (max-width:1560px) {
+                    font-size: 20px;
+                }
+                @media (max-width:1209px) {
+                   font-size: 17px;
+                }
+                @media (max-width:752px) {
+               font-size: 16px;
+                 }
+                 @media (max-width:518px) {
+                 font-size: 14px;
+                }
+                 @media (max-width:456px) {
+                  font-size: 12px;
+                 }
+            }
+            img {
+                width: 150px;
+                height: 150px;
+                @media (max-width:1560px) {
+                   width: 140px;
+                   height: 140px;
+                } 
+                @media (max-width:1209px) {
+                   width: 100px;
+                   height: 100px;
+                 }
+                @media (max-width:752px) {
+                    width: 100px;
+                    height: 100px;
+                 }
+                 @media (max-width:652px) {
+                    width: 80px;
+                    height: 80px;
+                 }
+               
+                 @media (max-width:507px) {
+                    width: 40px;
+                    height: 40px;
+                 }
+            }
+        }
+    }
+}

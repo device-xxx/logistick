@@ -1,0 +1,143 @@
+.Slider_container {
+  background: linear-gradient(274.01deg, #FFFFFF 26.18%, #CCE9FF 72.15%);
+
+}
+.slider_title {
+  @media (max-width: 1568px) {
+    font-size: 40px;
+  }
+  @media (max-width: 1400px) {
+    font-size: 26px;
+    max-width: 500px;
+  }
+  @media (max-width: 1400px) {
+    font-size: 20px;
+    max-width: 300px;
+
+  }
+
+
+}
+.slider_block_title {
+  @media (max-width: 1568px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1400px) {
+font-size: 18px;
+
+  }
+  @media (max-width: 1198px) {
+font-size: 16px;
+
+  }
+}
+.slider_block_description {
+  margin-top: 10px;
+  @media (max-width: 1568px) {
+    font-size: 23px;
+  }
+  @media (max-width: 1400px) {
+    font-size: 20px;
+    
+      }
+      @media (max-width: 1198px) {
+        font-size: 16px;
+        
+          }
+          @media (max-width: 900px) {
+            font-size: 14px;
+            
+              }
+}
+.Slider_img_box {
+  width: 100%;
+  aspect-ratio: 1/1;
+  img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    clip-path: polygon(30% 0%, 100% 0%, 70% 100%, 0% 100%);
+  }
+  @media (max-width:870px) {
+   position: absolute;
+   transform: translateX(30%);
+   height: 700px;
+}
+@media (max-width:570px) {
+   width: 700px;
+    transform: translateX(10%);
+ }
+ @media (max-width:400px) {
+    width: 700px;
+     transform: translateX(2%);
+  }
+}
+.slider_block {
+  @media (max-width: 1568px) {
+     width: 400px;
+    height: 350px;
+    .slider_block_img {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  @media (max-width: 1400px) {
+    width: 350px;
+    height: 330px;
+    .slider_block_img {
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  @media (max-width: 1198px) {
+    width: 350px;
+    height: 250px;
+    .slider_block_img {
+      img {
+        width: 70px;
+        height: 70px;
+      }
+    }
+      }
+
+  @media (max-width:870px) {
+    width: 375px;
+    height: 250px;
+    transform: translateX(-20px);
+}
+@media (max-width:400px) {
+    width: 305px;
+    height: 250px;
+    
+}
+}
+.left_bar {
+  @media (max-width: 1064px) {
+    padding: 20px 16px;
+  }
+  @media (max-width:870px) {
+  gap: 24px;
+  padding-bottom: 100px;
+}
+
+
+}
+.pagination {
+    bottom: 65px;
+    z-index: 55555555;
+    display: none;
+    transform: translateX(-50%);
+    @media (max-width:870px) {
+        display: flex;
+    }
+
+}
+.slider_btn {
+    @media (max-width:870px) {
+        // display: none;
+      // position: absolute;
+    }
+}

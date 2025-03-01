@@ -1,0 +1,13 @@
+.container_container {
+    img {
+        width: 100%;
+        aspect-ratio: 1/0.2;
+        object-fit: cover;
+    }
+    .gruz_info_box {
+ @media (max-width:1064px) {
+        padding: 40px 16px;
+    }
+    }
+   
+}
