@@ -18,6 +18,8 @@ export const Header = ()=> {
      console.log(user);
      
 if(user.email && user.name) {
+    setActive(false)
+             
             try {
               // Отправка POST-запроса на сервер
               const response = await fetch("/api/message", {
@@ -32,8 +34,7 @@ if(user.email && user.name) {
               });
         
           
-        
-             
+       
              
             } catch (error) {
               console.error("Ошибка:", error);
