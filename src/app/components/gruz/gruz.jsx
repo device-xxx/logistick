@@ -38,7 +38,7 @@ export const Gruz = ()=> {
                }
            }
     return(
-   <div className='px-[60px] gruz_container max-w-[2000px] mx-auto'>
+   <div id='gruz' className='px-[60px] gruz_container max-w-[2000px] mx-auto'>
 
     <div>
         <div className='  pt-[20px] mt-[20px]  info_container '>

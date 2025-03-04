@@ -45,30 +45,30 @@ if(user.email && user.name) {
         <>
         <header className='flex flex-col max-w-[2000px] m-auto relative '>
             <div className='py-[20px] header flex w-full items-center justify-between border-b border-b-[#94D1FF] px-[60px] gap-[100px] header'>
-                <div className='logo text-[#005494] text-[64px] font-[900] '><Image src={'/logo.svg'} alt='Logo' width={200} height={200}/></div>
+                <div className='logo text-[#005494] text-[64px] font-[900] '><Image src={'/logo.svg'} alt='Logo' width={340} height={200}/></div>
                 <div className='flex items-center gap-11 header_right_bar'>
                     <div className='flex items-center gap-[19px] header_info_box'>
-                        <div><svg className='Header_svg' width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div><svg className='Header_svg' width="32" height="32" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M31.4168 41.1667L35.7502 45.5L45.5002 35.75M47.6346 27.1914C47.656 26.797 47.6668 26.3998 47.6668 26C47.6668 14.0338 37.9663 4.33333 26.0002 4.33333C14.034 4.33333 4.3335 14.0338 4.3335 26C4.3335 37.7767 13.7293 47.3589 25.4336 47.6594M26.0002 13V26L34.1 30.0499" stroke="#005494" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 </div>
-                        <div><p className='header_info_text text-[#005494] text-[24px] font-[400] max-w-[516px] w-full'>Пн-Пт: с 09:00 до 18:00 (время московское)Сб-Вс: выходной</p></div>
+                        <div><p className='header_info_text text-[#005494] text-[21px] font-[400] max-w-[516px] w-full'>Пн-Пт: с 09:00 до 18:00 (время московское)Сб-Вс: выходной</p></div>
                     </div>
                     <div className='flex items-center gap-[19px] header_info_box'>
-                        <div><svg className='Header_svg' width="51" height="61" viewBox="0 0 51 61" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 33.35C30.367 33.35 34.3125 29.522 34.3125 24.8C34.3125 20.078 30.367 16.25 25.5 16.25C20.633 16.25 16.6875 20.078 16.6875 24.8C16.6875 29.522 20.633 33.35 25.5 33.35Z" stroke="#005494" strokeidth="4" strokeLinecap="round" strokeLinejoin="round"></path><path d="M25.5 59C37.25 47.6 49 37.3921 49 24.8C49 12.2079 38.4787 2 25.5 2C12.5213 2 2 12.2079 2 24.8C2 37.3921 13.75 47.6 25.5 59Z" stroke="#005494" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                        <div><svg className='Header_svg' width="31" height="31" viewBox="0 0 51 61" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 33.35C30.367 33.35 34.3125 29.522 34.3125 24.8C34.3125 20.078 30.367 16.25 25.5 16.25C20.633 16.25 16.6875 20.078 16.6875 24.8C16.6875 29.522 20.633 33.35 25.5 33.35Z" stroke="#005494" strokeidth="4" strokeLinecap="round" strokeLinejoin="round"></path><path d="M25.5 59C37.25 47.6 49 37.3921 49 24.8C49 12.2079 38.4787 2 25.5 2C12.5213 2 2 12.2079 2 24.8C2 37.3921 13.75 47.6 25.5 59Z" stroke="#005494" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"></path></svg>
 </div>
                         <div>
-                     <div className='font-[400] text-[24px] text-[#005494]  header_info_text max-[300px]'>Адрес компании г. Москва, ул. Платформа Северянин, вл.14, стр.1</div>
+                     <div className='font-[400] text-[21px] text-[#005494]  header_info_text max-[300px]'>Адрес компании г. Москва, ул. Платформа Северянин, вл.14, стр.1</div>
                       {/* <div className='font-[400] text-[24px] text-[#005494] text-nowrap header_info_text'>8 (800) 707-53-40</div> */}
                         </div>
                     </div>
                     <div className='flex items-center gap-[19px] header_info_box'>
-                        <div><svg className='Header_svg' width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div><svg className='Header_svg' width="32" height="32" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M30.4411 13C32.5574 13.4129 34.5023 14.4479 36.0269 15.9725C37.5515 17.4972 38.5865 19.4421 38.9994 21.5583M30.4411 4.33333C34.8379 4.82178 38.9379 6.79071 42.068 9.91685C45.198 13.043 47.1721 17.1405 47.6661 21.5367M22.1579 30.0367C19.5545 27.4332 17.4988 24.4895 15.9908 21.3487C15.8611 21.0785 15.7962 20.9434 15.7464 20.7725C15.5693 20.1651 15.6965 19.4192 16.0648 18.9047C16.1685 18.76 16.2923 18.6361 16.54 18.3885C17.2975 17.631 17.6762 17.2522 17.9239 16.8714C18.8577 15.4351 18.8577 13.5835 17.9239 12.1473C17.6762 11.7664 17.2975 11.3877 16.54 10.6302L16.1178 10.208C14.9663 9.05652 14.3906 8.48079 13.7723 8.16805C12.5426 7.54606 11.0903 7.54606 9.86061 8.16805C9.24229 8.48079 8.66656 9.05652 7.5151 10.208L7.17356 10.5495C6.02604 11.697 5.45228 12.2708 5.01408 13.0509C4.52783 13.9165 4.17822 15.2609 4.18117 16.2537C4.18383 17.1484 4.35739 17.7599 4.70451 18.9828C6.56994 25.5552 10.0896 31.757 15.2636 36.9309C20.4376 42.1049 26.6393 45.6246 33.2117 47.49C34.4347 47.8371 35.0461 48.0107 35.9409 48.0134C36.9337 48.0163 38.2781 47.6667 39.1437 47.1805C39.9237 46.7423 40.4975 46.1685 41.645 45.021L41.9866 44.6794C43.138 43.528 43.7137 42.9522 44.0265 42.3339C44.6485 41.1042 44.6485 39.652 44.0265 38.4222C43.7137 37.8039 43.138 37.2282 41.9866 36.0767L41.5643 35.6545C40.8069 34.897 40.4281 34.5183 40.0473 34.2707C38.611 33.3369 36.7594 33.3369 35.3231 34.2707C34.9423 34.5183 34.5636 34.897 33.8061 35.6545C33.5584 35.9022 33.4346 36.026 33.2898 36.1297C32.7754 36.498 32.0295 36.6252 31.422 36.4482C31.2511 36.3983 31.116 36.3335 30.8459 36.2038C27.705 34.6958 24.7613 32.6401 22.1579 30.0367Z" stroke="#005494" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 </div>
                         <div>
-                     <div className='font-[400] text-[24px] text-[#005494] text-nowrap header_info_text'>+7(495)0113995</div>
+                     <div className='font-[400] text-[24px] text-[#005494] text-nowrap header_info_text'>+7(966)0113995</div>
                       {/* <div className='font-[400] text-[24px] text-[#005494] text-nowrap header_info_text'>8 (800) 707-53-40</div> */}
                         </div>
                     </div>
@@ -125,7 +125,7 @@ if(user.email && user.name) {
 
             <div className={`menu w-full flex items-center justify-center py-[24px] border-b border-b-[#94D1FF] ${menu == true ? 'menu_active':'menu_disable'}`}>
                 <ul className='flex gap-11'>
-                    <li><a href="#container" className='text-[#005494] font-[400] text-[24px]'>Услуги</a></li>
+                    <li><a href="#gruz" className='text-[#005494] font-[400] text-[24px]'>Услуги</a></li>
                     <li><a href="https://docs.google.com/document/d/1huGiXDx5jBjFGtDsn5yVmsIzDTVKIR3G/edit?usp=drive_link&ouid=112087202378903553016&rtpof=true&sd=true" target='_blank' className='text-[#005494] font-[400] text-[24px]'>Тарифы</a></li>
                     <li><a href="#news" className='text-[#005494] font-[400] text-[24px]'>Новости</a></li>
                     <li><a href="" className='text-[#005494] font-[400] text-[24px]'>Документация</a></li>
