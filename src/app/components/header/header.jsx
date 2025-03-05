@@ -1,15 +1,24 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './index.scss';
 
 export const Header = ()=> {
     const [menu,setMenu] = useState(false);
     const [acitve,setActive] =useState(false);
+    const [send,setSend] = useState(false);
     const [user,setUser] = useState({
         name:'',
         email:''
     })
+    useEffect(()=> {
+if(send == true) {
+    document.body.style.overflow ='hidden'
+}
+else if(send == false) {
+      document.body.style.overflow ='auto'
+}
+    },[send])
 
     const HandleChange = ()=> {
         setMenu((prev)=> !prev)
@@ -19,6 +28,7 @@ export const Header = ()=> {
      
 if(user.email && user.name) {
     setActive(false)
+    setSend(true)
              
             try {
               // Отправка POST-запроса на сервер
@@ -180,6 +190,18 @@ if(user.email && user.name) {
                       </div>
                       </div>
 }
+{send && <div className='fixed z-[99999999]  w-full h-[100vh] left-[0] top-[0] bg-black/50 flex items-center justify-center' >
+<div className='bg-[#CBE8FF] flex items-center justify-center rounded-[20px] px-[20px] h-[200px] relative' > 
+<svg onClick={()=> {
+    setSend(false)
+}} className='absolute right-[20px] top-[20px] cursor-pointer' width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 1L1 21" stroke="black" strokeWidth="2" strokeLinecap="round"/>
+<path d="M21 21L1 0.999999" stroke="black" strokeWidth="2" strokeLinecap="round"/>
+</svg>
+
+<h1 className='text-[#005494] text-[24px] font-[700]'>Спасибо! Данные успешно отправленны.</h1>
+</div>
+    </div>}
         </>
     )
 }

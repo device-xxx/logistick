@@ -8,6 +8,9 @@ export default {
   theme: {
     extend: {
       colors: {
+        blue:{
+          qaq:'rgb(203 232 255'
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
