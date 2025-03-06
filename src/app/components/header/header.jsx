@@ -191,7 +191,7 @@ if(user.email && user.name) {
                       </div>
 }
 {send && <div className='fixed z-[99999999]  w-full h-[100vh] left-[0] top-[0] bg-black/50 flex items-center justify-center' >
-<div className='bg-[#CBE8FF] flex items-center justify-center rounded-[20px] px-[20px] h-[200px] relative' > 
+<div className='mx-[30px] bg-[#CBE8FF] flex items-center justify-center rounded-[20px] px-[20px] h-[200px] relative' > 
 <svg onClick={()=> {
     setSend(false)
 }} className='absolute right-[20px] top-[20px] cursor-pointer' width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,7 +199,7 @@ if(user.email && user.name) {
 <path d="M21 21L1 0.999999" stroke="black" strokeWidth="2" strokeLinecap="round"/>
 </svg>
 
-<h1 className='text-[#005494] text-[24px] font-[700]'>Спасибо! Данные успешно отправленны.</h1>
+<h1 className='text-[#005494] text-[24px] font-[700] text-center'>Спасибо! Данные успешно отправленны.</h1>
 </div>
     </div>}
         </>
