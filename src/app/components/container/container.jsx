@@ -98,7 +98,7 @@ export const Container = ()=> {
 <path d="M21 21L1 0.999999" stroke="black" strokeWidth="2" strokeLinecap="round"/>
 </svg>
 
-<h1 className='text-[#005494] text-[24px] font-[700] text-center'>Спасибо! Данные успешно отправленны.</h1>
+<h1 className='text-[#005494] text-[24px] font-[700] text-center'>Спасибо! Данные успешно отправлены.</h1>
 </div>
     </div>}
        </>
