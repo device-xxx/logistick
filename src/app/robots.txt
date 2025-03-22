@@ -1,0 +1,19 @@
+User-agent: *
+
+Allow: /images
+
+Sitemap: https://transnext.ru/sitemap.xml
+
+User-agent: Googlebot
+
+Allow: /
+
+Sitemap: https://transnext.ru/sitemap.xml
+
+User-agent: Yandex
+
+Allow: /images
+
+Clean-param: utm&etext&yclid
+
+Sitemap: https://transnext.ru/sitemap.xml
