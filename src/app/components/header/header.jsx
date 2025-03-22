@@ -54,6 +54,10 @@ if(user.email && user.name) {
     return(
         <>
         <header className='flex flex-col max-w-[2000px] m-auto relative '>
+
+            <title>Перевозка и доставка сборных грузов по выгодной цене – компания TransNext</title>
+            <meta name="description" content="Выполним перевозку и доставку сборных грузов, контейнеров автомобильным транспортом, в жд контейнерах – рассчитать стоимость вы можете на сайте или по тел: +7(966)0113995" />
+            
             <div className='py-[20px] header flex w-full items-center justify-between border-b border-b-[#94D1FF] px-[60px] gap-[100px] header'>
                 <div className='logo text-[#005494] text-[64px] font-[900] '><Image src={'/logo.svg'} alt='Logo' width={340} height={200}/></div>
                 <div className='flex items-center gap-11 header_right_bar'>
